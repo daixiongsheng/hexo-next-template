@@ -1,0 +1,37 @@
+{
+  "name": "hexo-site",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "server": "hexo server",
+    "publish": "hexo clean && hexo deploy",
+    "prettier": "prettier --write 'source/**/*.{js,ts,less,md,json}'"
+  },
+  "hexo": {
+    "version": "5.4.0"
+  },
+  "dependencies": {
+    "hexo": "^5.4.0",
+    "hexo-all-minifier": "^0.5.5",
+    "hexo-asset-image": "^1.0.0",
+    "hexo-deployer-git": "^2.0.0",
+    "hexo-filter-mermaid-diagrams": "^1.0.5",
+    "hexo-generator-archive": "^1.0.0",
+    "hexo-generator-calendar": "github:theme-next/theme-next-calendar",
+    "hexo-generator-category": "^1.0.0",
+    "hexo-generator-feed": "^3.0.0",
+    "hexo-generator-index-pin-top": "^0.2.2",
+    "hexo-generator-search": "^2.4.3",
+    "hexo-generator-tag": "^1.0.0",
+    "hexo-renderer-ejs": "^1.0.0",
+    "hexo-renderer-pandoc": "^0.3.0",
+    "hexo-renderer-stylus": "^1.1.0",
+    "hexo-server": "^1.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
